@@ -1,2 +1,2 @@
 Cenit Screencasts
-Show playlist from youtube
+Show playlist from youtube channel

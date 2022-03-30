@@ -32,7 +32,7 @@ export default function Home({ data }) {
             const { medium } = thumbnails;
             return (
               <li key={id} className={styles.card}>
-                <a href={`https://www.youtube.com/watch?v=${resourceId.videoId}`}>
+                <a href={`https://www.youtube.com/watch?v=${resourceId.videoId}`} target='_blank' rel='nooopener noreferrer'>
                   <p>
                     <img width={medium.width} height={medium.height} src={medium.url} alt="" />
                   </p>
